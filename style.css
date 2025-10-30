@@ -74,14 +74,17 @@ nav {
 }
 nav h3,
 nav p {
-    background-image: linear-gradient(330deg, rgba(255,0,0,0), #EEF5FF);
-    margin-left: 30%;
-    margin-right: 30%;
+    background-image: radial-gradient(circle, #EEF5FF 3%, rgba(255,0,0,0));
+    margin-left: 15%;
+    margin-right: 15%;
+    min-width: 300px;
 }
 .guy {
     /* margin-left: -2%; */
     /* margin-right: 40%; */
-    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    min-width: 300px;
     border-radius: 5%;
 }
 h3 {
